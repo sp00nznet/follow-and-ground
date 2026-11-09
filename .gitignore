@@ -1,0 +1,13 @@
+# never commit: secrets, local tooling, scratch
+.env
+*.env
+lab.env
+CLAUDE.md
+.claude/
+node_modules/
+__pycache__/
+scratch/
+*.log
+.godot/
+build/
+*.import

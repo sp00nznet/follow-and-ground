@@ -1,0 +1,34 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+
+config/name="follow-and-ground"
+config/description="A self-guided practice and grounding tool built on ideas from EMDR research. Not therapy."
+config/version="0.2.0"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[audio]
+
+driver/enable_input=false
+general/text_to_speech=true
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+
+[xr]
+
+openxr/enabled=true
+openxr/startup_alert=false
+shaders/enabled=true
